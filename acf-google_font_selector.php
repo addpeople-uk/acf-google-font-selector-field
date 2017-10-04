@@ -12,7 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 // Include Common Functions
-include_once('functions.php');
+include_once('func.php');
 
 
 add_action('plugins_loaded', 'acfgfs_load_textdomain');
